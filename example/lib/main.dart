@@ -65,7 +65,7 @@ class _BottomSheetDemoState extends State<BottomSheetDemo> with TickerProviderSt
           return Column(children: [
             Expanded(
                 child: Center(
-                    child: RaisedButton(
+                    child: ElevatedButton(
                         onPressed: _bottomSheetActive
                             ? null
                             : () {
@@ -78,7 +78,7 @@ class _BottomSheetDemoState extends State<BottomSheetDemo> with TickerProviderSt
                         child: const Text('Show bottom sheet')))),
             Expanded(
                 child: Center(
-                    child: RaisedButton(
+                    child: ElevatedButton(
                         onPressed: () {
                           Navigator.push(context, MaterialPageRoute(builder: (context) => AnotherScrollable()));
                         },

@@ -7,16 +7,11 @@ This is a temporary workaround to achieve Scrollable Persistent Bottom Sheet tha
 First, add `scrollable_bottom_sheet` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ```
-scrollable_bottom_sheet: ^0.2.1
+scrollable_bottom_sheet: ^1.0.0
 
 ## Notes
 
-For version ^0.2.0 and later is AndroidX compatible version
-For version below 0.1.0+2 is AndroidX incompatible version
 
-I haven't refactor this plugin to Flutter 1.2.1, so maybe if you're using Flutter 1.2.1 this may cause errors
-
-Feel free to fork this if you want to customize or refactor to Flutter 1.2.1
 
 ```
 

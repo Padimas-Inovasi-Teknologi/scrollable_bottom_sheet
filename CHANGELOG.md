@@ -1,3 +1,7 @@
+## 1.0.0
+
+* Migrate to Null-Safety
+
 ## 0.2.1
 
 * Cancel drag when not full height (by joserocha3)
